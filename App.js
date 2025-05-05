@@ -1,20 +1,33 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { ScrollView, View, StyleSheet } from 'react-native';
+import Vista from '../componentes/View';
+import Texto from '../componentes/Texto';
+import Imagen from '../componentes/Imagen';
+import MiTextInput from '../componentes/TextInput';
+import MiBoton from '../componentes/Button';
+import MiScrollView from '../componentes/ScrollView';
+import MiFlatList from '../componentes/FlatList';
+//npx expo start --tunnel
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ScrollView contentContainerStyle={styles.container}>
+      <Vista />
+      <Texto />
+      <Imagen />
+      <MiTextInput />
+      <MiBoton />
+      <MiScrollView />
+      <MiFlatList />
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    flexGrow: 1,
     justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
   },
 });
