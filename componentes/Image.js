@@ -4,7 +4,7 @@ import { Image, StyleSheet } from 'react-native';
 export default function Imagen() {
   return (
     <Image
-      source={require('../assets/image.png')} // Cambia la ruta si es necesario
+      source={require('../assets/image.png')}
       style={styles.image}
     />
   );

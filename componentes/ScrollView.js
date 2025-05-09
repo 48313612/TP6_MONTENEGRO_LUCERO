@@ -5,7 +5,7 @@ export default function MiScrollView() {
   return (
     <ScrollView style={styles.scrollView}>
       <Text>¡Desplázate por mí!</Text>
-      {/* Puedes agregar más contenido aquí */}
+      {/* Se puede agregar mas contenido */}
       <Text>Contenido adicional que puede ser desplazado.</Text>
     </ScrollView>
   );

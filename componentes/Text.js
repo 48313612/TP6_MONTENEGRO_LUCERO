@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet } from 'react-native';
 
 export default function Texto() {
-  return <Text style={styles.text}>¡Bienvenido a mi aplicación!</Text>;
+  return <Text style={styles.text}>Bienvenido a mi aplicación!</Text>;
 }
 
 const styles = StyleSheet.create({

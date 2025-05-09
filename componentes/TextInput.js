@@ -6,9 +6,9 @@ export default function MiTextInput() {
 
   return (
     <TextInput
-      placeholder="Ingrese su nombre de usuario"
+      placeholder="Ingrese su user:"
       style={styles.input}
-      onChangeText={text => setTexto(text)} // Actualiza el estado con el texto ingresado
+      onChangeText={text => setTexto(text)}
       value={texto}
     />
   );

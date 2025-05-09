@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function Vista() {
   return (
     <View style={styles.container}>
-      <Text>¡Hola, React Native!</Text>
+      <Text>React Native</Text>
     </View>
   );
 }
